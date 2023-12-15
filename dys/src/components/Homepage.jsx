@@ -144,7 +144,7 @@ const Homepage = () => {
                 </Text>
                 <Box>
                   <Link
-                    href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09"
+                    href="https://us02web.zoom.us/j/82269281496?pwd=aHFaM1JkaWY5ZldxYUFWTWxLcUozZz09"
                     isExternal
                   >
                     <Button
