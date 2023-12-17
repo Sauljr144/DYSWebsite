@@ -284,6 +284,69 @@ const Homepage = () => {
                 </Box>
               </Box>
             </GridItem>
+            <GridItem colSpan={{ base: 3, sm: 3, md: 1, lg: 1 }}>
+              <Box
+                display="flex"
+                flexDirection={"column"}
+                width="100%"
+                height="450px"
+                padding="25px"
+                borderRadius={30}
+                bgColor={"#F5F5F5"}
+                bgPosition="top"
+                bgSize="cover"
+                justifyContent={"center"}
+                alignItems={"center"}
+              >
+                <Text
+                  fontFamily="Roboto"
+                  textAlign="center"
+                  lineHeight={6}
+                  fontSize={{ base: 20, md: 18, lg: 20 }}
+                  fontWeight={500}
+                  color="black"
+                >
+                  Join our Europe Group!
+                </Text>
+                <Text
+                  mt="15px"
+                  fontFamily="Roboto"
+                  textAlign="center"
+                  lineHeight={7}
+                  fontSize={{ base: 24, md: 20, lg: 30 }}
+                  fontWeight={700}
+                  color="black"
+                >
+                  Dec. 24 - Mar. 3
+                </Text>
+                <Text
+                  mt="15px"
+                  fontFamily="Roboto"
+                  textAlign="center"
+                  lineHeight={6}
+                  fontSize={20}
+                  fontWeight={500}
+                  color="black"
+                >
+                  6:00 - 8:00 PM Europe Time
+                </Text>
+                <Box>
+                  <Link href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09"> 
+                  
+                  <Button
+                    colorScheme="blackAlpha"
+                    variant="outline"
+                    fontWeight={700}
+                    textColor={"black"}
+                    borderWidth={2}
+                    mt={10}
+                  >
+                    Join
+                  </Button>
+                  </Link>
+                </Box>
+              </Box>
+            </GridItem>
           </SimpleGrid>
         </Container>
       </VStack>
