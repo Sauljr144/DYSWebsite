@@ -20,18 +20,19 @@ const Homepage = () => {
       <VStack>
         <Container maxW="container.xl" centerContent mt={10}>
           <HStack>
-            <Box boxSize="120px" >
+            <Box boxSize="100px" >
               <Image
                 src={logo}
                 alt="DYS Logo"
                 bgPosition="center"
                 bgSize="cover"
-                ms={5} me={5}
+             
+                
               />
             </Box>
           </HStack>
         </Container>
-        <Container ms={5} me={5} mt={0} mb="100px" maxW="container.xl">
+        <Container  mt={0} mb="100px" maxW="container.xl">
           <SimpleGrid
             columns={{ sm: 1, md: 3, lg: 3 }}
             spacingX="40px"
