@@ -18,7 +18,7 @@ const Homepage = () => {
   return (
     <>
       <VStack>
-        <Container maxW="container.xl" centerContent mt={10}>
+        <Container ms={5} me={5} maxW="container.xl" centerContent mt={10}>
           <HStack>
             <Box boxSize="120px">
               <Image
