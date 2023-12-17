@@ -18,14 +18,15 @@ const Homepage = () => {
   return (
     <>
       <VStack>
-        <Container ms={5} me={5} maxW="container.xl" centerContent mt={10}>
+        <Container maxW="container.xl" centerContent mt={10}>
           <HStack>
-            <Box boxSize="120px">
+            <Box boxSize="120px" >
               <Image
                 src={logo}
                 alt="DYS Logo"
                 bgPosition="center"
                 bgSize="cover"
+                ms={5} me={5}
               />
             </Box>
           </HStack>
