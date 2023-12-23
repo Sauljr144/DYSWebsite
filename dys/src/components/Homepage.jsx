@@ -20,19 +20,17 @@ const Homepage = () => {
       <VStack>
         <Container maxW="container.xl" centerContent mt={10}>
           <HStack>
-            <Box boxSize="100px" >
+            <Box boxSize="100px">
               <Image
                 src={logo}
                 alt="DYS Logo"
                 bgPosition="center"
                 bgSize="cover"
-             
-                
               />
             </Box>
           </HStack>
         </Container>
-        <Container  mt={0} mb="100px" maxW="container.xl">
+        <Container mt={0} mb="100px" maxW="container.xl">
           <SimpleGrid
             columns={{ sm: 1, md: 3, lg: 3 }}
             spacingX="40px"
@@ -210,19 +208,18 @@ const Homepage = () => {
                   6:00 - 8:00 PM Central Time
                 </Text>
                 <Box>
-                    <Link href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09">
-                    
-                        <Button
-                            colorScheme="blackAlpha"
-                            variant="outline"
-                            fontWeight={700}
-                            textColor={"black"}
-                            borderWidth={2}
-                            mt={10}
-                        >
-                            Join
-                        </Button>
-                    </Link>
+                  <Link href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09">
+                    <Button
+                      colorScheme="blackAlpha"
+                      variant="outline"
+                      fontWeight={700}
+                      textColor={"black"}
+                      borderWidth={2}
+                      mt={10}
+                    >
+                      Join
+                    </Button>
+                  </Link>
                 </Box>
               </Box>
             </GridItem>
@@ -273,16 +270,18 @@ const Homepage = () => {
                   6:00 - 8:00 PM Central Time
                 </Text>
                 <Box>
-                  <Button
-                    colorScheme="blackAlpha"
-                    variant="outline"
-                    fontWeight={700}
-                    textColor={"black"}
-                    borderWidth={2}
-                    mt={10}
-                  >
-                    Join
-                  </Button>
+                  <Link href="https://us02web.zoom.us/j/86227659122?pwd=TzVFWlBzZ0M2U3RNZjNocTBZcWdXUT09">
+                    <Button
+                      colorScheme="blackAlpha"
+                      variant="outline"
+                      fontWeight={700}
+                      textColor={"black"}
+                      borderWidth={2}
+                      mt={10}
+                    >
+                      Join
+                    </Button>
+                  </Link>
                 </Box>
               </Box>
             </GridItem>
@@ -333,18 +332,17 @@ const Homepage = () => {
                   6:00 - 8:00 PM Europe Time
                 </Text>
                 <Box>
-                  <Link href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09"> 
-                  
-                  <Button
-                    colorScheme="blackAlpha"
-                    variant="outline"
-                    fontWeight={700}
-                    textColor={"black"}
-                    borderWidth={2}
-                    mt={10}
-                  >
-                    Join
-                  </Button>
+                  <Link href="https://us02web.zoom.us/j/5909278766?pwd=cGhpNzh4TlhlcnVrdXZ1WDBIUXFtQT09">
+                    <Button
+                      colorScheme="blackAlpha"
+                      variant="outline"
+                      fontWeight={700}
+                      textColor={"black"}
+                      borderWidth={2}
+                      mt={10}
+                    >
+                      Join
+                    </Button>
                   </Link>
                 </Box>
               </Box>
